@@ -7,6 +7,12 @@ window.addEventListener("load" , ()=>{
   loader.style.display = "none" ;
 })
 
+document.addEventListener("DOMContentLoaded", () => {
+    // Get all "navbar-burger" elements
+    const $navbarBurgers = Array.prototype.slice.call(
+      document.querySelectorAll(".navbar-burger"),
+      0
+    );
 
 window.addEventListener("scroll" , function(){
   let header=document.querySelector("#header");
@@ -15,12 +21,6 @@ window.addEventListener("scroll" , function(){
 
 
 
-document.addEventListener("DOMContentLoaded", () => {
-    // Get all "navbar-burger" elements
-    const $navbarBurgers = Array.prototype.slice.call(
-      document.querySelectorAll(".navbar-burger"),
-      0
-    );
 
     // Add a click event on each of them
     $navbarBurgers.forEach((el) => {

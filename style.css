@@ -412,17 +412,7 @@ border-radius: 25px;
   }
 }
 @media screen and (max-width: 1016px) {
-  #preloader {
-    background-size: 9%;
-  }
-  .ldio-su7pa1m2z2a {
-    width: 52%;
-    height: 52vh;
-  }
-  #preloader .ldio-su7pa1m2z2a div {
-    width: 120px;
-    height: 120px;
-  }
+
 
   button.menu-item {
     width: 100%;
