@@ -1,0 +1,243 @@
+
+.contact{
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  /* background-color: #17283c; */
+  display: flex;
+  margin: 25px 0 75px 0 ;
+
+}
+
+.contact::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  /* background:#09c8c1; */
+}
+.contact .contact-container{
+  position: relative;
+  min-width: 1100px;
+  min-height: 550px;
+  display: flex;
+  z-index: 10;
+
+}
+.contact .contact-container .contactinfo{
+  position: absolute;
+  top: 40px;
+  width: 350px;
+  /* height: calc(100% -80px); */
+  /* background: #17283c; */
+  border-radius: 25px;
+  
+  z-index: 1;
+  
+  
+  /* box-shadow: 0 20px 20px rgba(0,0,0,0.2); */
+}
+.map{
+  border-radius: 25px;
+  width: 100%;
+  height: 500px;
+}
+.contactform{
+  position: absolute;
+  padding: 20px 50px;
+  background: #17283c;
+  margin-left: 150px;
+  border-radius: 25px;
+  padding-left: 250px;
+  
+  box-shadow: 0 50px 50px rgba(0,0,0,0.5);
+}
+
+.contact .contact-container  h2{
+  color: #fff;
+  font-size: 45px !important;
+  text-align: center;
+  margin: 40px auto !important;
+  font-weight: 800 !important;
+
+}
+.contact .contact-container .formbox{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 30px;
+
+}
+.contact .contact-container  .formbox .inputbox{
+  position: relative;
+  margin: 0 0 35px 0;
+}
+.contact .contact-container  .formbox .inputbox.w50{
+  width: 47%;
+} 
+.contact .contact-container  .formbox .inputbox.w100{
+  width: 100%;
+} 
+.contact .contact-container  .formbox .inputbox input ,
+.contact .contact-container  .formbox .inputbox select ,
+  .contact .contact-container  .formbox .inputbox textarea{
+    width: 100%;
+    padding: 5px 0;
+    resize: none;
+    font-size: 18px;
+    font-weight: 300;
+    border: none;
+    background-color: #17283c;
+    color: #fff;
+    border-bottom: 1px solid #777;
+    outline: none;
+  }
+  .contact .contact-container  .formbox .inputbox textarea{
+  min-height: 120px;
+  }
+  .contact .contact-container  .formbox .inputbox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 18px;
+    font-weight: 300;
+    border: none;
+    color: #fff;
+    transition: 0.5s;
+    pointer-events: none;
+
+
+  }
+  .contact .contact-container  .formbox .inputbox input:focus ~ span,
+  .contact .contact-container  .formbox .inputbox textarea:focus ~ span,
+  .contact .contact-container  .formbox .inputbox input:valid ~ span,
+  .contact .contact-container  .formbox .inputbox textarea:valid ~ span{
+    transform: translateY(-20px);
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #09c8c1;
+
+  }
+
+  .contact .contact-container  .formbox .inputbox input[type="submit"]{
+    position: relative;
+    cursor: pointer;
+    background: #fff;
+    color: #17283c;
+    border: 2px solid transparent;
+  border-radius: 25px;
+    transition: 0.5s;
+    max-width: 150px;
+    font-weight: 500;
+    padding: 12px;
+  }
+  .contact .contact-container  .formbox .inputbox input[type="submit"]:hover{
+    color: #09c8c1;
+    background-color: #17283c;
+    border: 2px solid #fff;
+  }
+
+.contact .contact-container  .formbox .inputbox select option{
+  border-bottom: 1px solid #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1124px){
+  .contact .contact-container{
+  
+    min-width: 900px;
+    min-height: 550px;
+  
+  
+  }
+}
+
+@media screen and (max-width: 924px){
+  .contact .contact-container{
+  
+    min-width: 700px;
+    min-height: 550px;
+  
+  
+  }
+.contact .contact-container .contactinfo{
+   
+    width: 250px;
+    
+    
+  }
+.contact .contact-container .contactform{
+   
+    margin-left: 100px;
+    padding-left: 170px;
+    
+  }
+}
+@media screen and (max-width: 750px){
+  .contact .contact-container{
+  
+    min-width: 90%;
+    /* min-height: 550px; */
+  
+  
+  }
+  .contact .contact-container .contactinfo{
+   
+    width: 250px;
+    
+    
+  }
+ 
+  .contact .contact-container .contactform .formbox .inputbox.w50{
+    width: 100%;
+  } 
+}
+@media screen and (max-width: 550px){
+  
+  .contact .contact-container .contactform{
+   
+    margin-left: 10px;
+    padding-left: 20px;
+    
+  }
+  .contact .contact-container .contactinfo{
+  
+    bottom: -200px;
+    top: 750px;
+    margin: auto;
+    width: 100%;
+    z-index: -1;
+   
+  }
+  .contact{
+  
+    margin: 25px 0 670px 0 ;
+    min-height: 0;
+  
+  }
+  .map{
+    height: 400px;
+  }
+
+}
