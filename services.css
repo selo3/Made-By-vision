@@ -116,6 +116,18 @@ body{
   .card-hover__title {
     font-size: 1.5rem;
     margin-bottom: 1em;
+    animation: color-title 2s   infinite alternate ease-in;
+  }
+  @keyframes color-title{
+    0%{
+      color: #969696;
+      text-shadow:0 0 0px  #09c8c1;
+
+    }
+    100%{
+      text-shadow:0 0 20px  #09c8c1;
+      color: #09c8c1;
+    }
   }
   .card-hover__title span {
     color: #09c8c1;

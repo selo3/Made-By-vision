@@ -60,15 +60,7 @@ img {
 
 .gradient-text {
   font-family: "Tilt Neon", sans-serif;
-  background-image: linear-gradient(
-    45deg,
-    #09c8c1 0%,
-    #09c8c1 40%,
-    #17283c 50%,
-    #09c8c1 60%,
-    #17283c 75%,
-    #09c8c1 100%
-  );
+  background-color: #09c8c1;
   color: transparent;
   background-size: contain;
   background-clip: text;
