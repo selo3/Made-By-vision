@@ -295,15 +295,16 @@ h2 {
 
 /* start services section  */
 .section-services button{
-  position: relative;
+  position: absolute;
   cursor: pointer;
   background: #09c8c1;
   margin: auto;
   border: 2px solid transparent;
 border-radius: 25px;
   transition: 0.5s;
-  width: 150px;
-  font-weight: 500;
+  width: 200px;
+  font-weight: bold;
+  font-size: 25px;
   padding: 12px;
   left: 50%;
   transform: translateX(-50%);
