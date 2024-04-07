@@ -8,7 +8,8 @@
   display: flex;
   padding: 50px;
   /* margin: 145px 0 75px 0 ; */
-  background: url('image/bgfirstsection/32.avif') no-repeat;
+  background-color: #09c8c1;
+  /* background: url('image/bgfirstsection/32.avif') no-repeat; */
   background-size: 100%;
 
 }
@@ -239,7 +240,7 @@
   }
   .contact{
   
-    margin: 135px 0 670px 0 ;
+    margin: 135px 0 500px 0 ;
     min-height: 0;
   
   }

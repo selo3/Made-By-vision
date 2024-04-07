@@ -445,7 +445,7 @@ li a {
 .language-button{
   position: absolute;
   top: 25px;
-  
+
 
 }
 
@@ -539,15 +539,15 @@ li a {
       grid-area: tow;
   }
   
-  .menu-item {
-      background-color: rgba(23, 40, 60, 0.8);
-      /* width: 100px; */
-      transition: all 1s ease 0s;
-      border: 1px solid transparent;
-      text-align: center;
-      border-radius: 10px;
-      box-shadow: #c0c3c6 -3px -3px 0px 0px inset;
-  }
+ .menu-item {
+    background-color: rgba(23, 40, 60, 0.8);
+    /* width: 100px; */
+    transition: all 1s ease 0s;
+    border: 1px solid transparent;
+    text-align: center;
+    border-radius: 11px;
+    box-shadow: #c0c3c673 0 0 0px 3px;
+}
     .menu-item:nth-of-type(1){
        grid-area: one;
         }
