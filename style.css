@@ -277,17 +277,18 @@ h2 {
 
   flex-direction: column;
 }
-.features{1.6
+.features{
   
   border-radius: 10px;
-  color: #17283c;
-  width: 150px;
+  color: #09c8c1;
+  width: 120px;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 150px;
-  background-color: #09c8c1;
-  font-size: 50px;
+  height: 120px;
+  background-color: #17283c;
+  font-size: 40px;
+  margin-bottom: 10px;
   }
 
 .card1 h1 {

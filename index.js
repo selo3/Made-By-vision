@@ -1,6 +1,6 @@
 // loader screen 
 
-let loader = document.getElementById("preloader")
+let loader = document.getElementById("loader-wrapper")
 
 window.addEventListener("load" , ()=>{
   
@@ -49,7 +49,7 @@ window.addEventListener("scroll" , function(){
         about:"About",
         contact:"Contact us",
         language:"language",
-        en:"عربي",
+        en:"",
         projects:"projects",
         Articles:"Articles",
 
@@ -78,9 +78,6 @@ window.addEventListener("scroll" , function(){
         // Service Worker 
 
         Services:"Services",
-        service1:"Analysis and Design",
-        service2:"Offering Appropriate Solutions  ",
-        service3:"Customizing Services",
         service4:"Ensuring Quality",
         service5:"Programming",
         service6:"Testing",
@@ -91,6 +88,52 @@ window.addEventListener("scroll" , function(){
         service11:"Software Development",
         
         
+        // service one 
+          service1:"Analysis and Design",
+          service1_2:"Analyzing business requirements and designing an efficient solution that meets client needs",
+          service1_3:": Providing tailored technological solutions that reflect the client's vision and improving operational efficiency",
+          service1_4:"We are here to understand your vision and turn it into reality. Analysis involves exploring the finest details of your needs and requirements, analyzing every aspect of your business. Then comes the design phase to turn these requirements into a tangible execution plan, including user interface design and defining key functionalities.",
+          service1_5:"Benefits of the Application:",
+          service1_6:"Enhanced Productivity",
+          service1_7:"Precise analysis sets the foundation for improving work efficiency and increasing productivity",
+          service1_8:"Achieving Effective Communication",
+          service1_9:"Design helps in creating an effective user interface, enhancing user interaction with the application positively",
+          service1_11:"Meeting Business Objectives",
+          service1_12:"Analysis and design ensure the efficient achievement of your business objectives, contributing to the project's success",
+  
+  
+          
+          
+          // service tow 
+          service2:"Offering Appropriate Solutions  ",
+          service2_2:"Presenting unique solutions tailored to business requirements and utilized technologies",
+          service2_3:"Supporting clients with modern technologies and solutions to advance their business",
+          service2_4:"We understand that every organization has unique needs, and that's why we provide customized solutions that align with the nature of your business. We start by comprehending the intricacies of your operations and requirements, offering tailored plans based on your specific goals and challenges",
+          service2_5:"Impact of the Application",
+          service2_6:"Achieving Better Integration",
+          service2_7:"Offering customized solutions helps enhance the integration of work systems within the organization, achieving more efficient workflows",
+          service2_8:"Improving User Experience",
+          service2_9:"Opting for suitable solutions allows for an enhanced user experience, fostering positive interaction with the utilized technologies",
+          service2_11:"Increasing Efficiency and Productivity",
+          service2_12:"Providing appropriate solutions boosts overall efficiency and increases organizational productivity",
+          
+          // service three 
+          service3:"Customizing Services",
+          service3_2:"Offering personalized services to meet the unique needs of each client",
+          service3_3:"Satisfying clients through unique and fitting experiences",
+          service3_4:"We focus on precisely meeting the needs of your business by customizing unique solutions. We work closely with you to understand the details of your requirements and tailor solutions to align with your identity and unique business needs",
+          service3_5:"Impact of the Application",
+          service3_6:"Addressing Specific Needs",
+          service3_7:"We identify and understand the specifics of your needs to deliver a solution that perfectly addresses those requirements",
+          service3_8:"Enhancing Competitive Edge",
+          service3_9:"Customizing solutions gives you an edge over competitors by offering unique services that reflect your brand identit",
+          service3_11:"",
+          service3_12:"",
+
+
+
+
+
         // CONTACT US 
         
         service0:"select a service",
@@ -170,7 +213,7 @@ window.addEventListener("scroll" , function(){
         about1:"نبذة عنا",
         contact:"تواصل معنا",
         language:"اللغة",
-        en:"Englesh",
+        en:"",
         projects:"أعمالنا",
         Articles:"مدونة",
 
@@ -201,9 +244,6 @@ window.addEventListener("scroll" , function(){
 
 
         Services:"خدماتنا",
-        service1:"التحليل والتصميم ",
-        service2:"تقديم حلول مناسبة",
-        service3:"خدمات التخصيص",
         service4:"ضمان الجودة",
         service5:"البرمجة ",
         service6:"الاختبار ",
@@ -212,6 +252,49 @@ window.addEventListener("scroll" , function(){
         service9:"دعم ما بعد النشر",
         service10:"الصيانة ",
         service11:"تطوير البرمجيات ",
+        
+        // service one 
+        service1:"التحليل والتصميم ",
+        service1_2:"تحليل متطلبات العمل وتصميم حلاً فعّالاً يلبي احتياجات العميل",
+        service1_3:"تقديم حلول تقنية مخصصة تعكس رؤية العميل وتحسين كفاءة العمليات",
+        service1_4:"نحن هنا لفهم رؤيتك وتحولها إلى واقع. يتمثل التحليل في استكشاف أدق تفاصيل احتياجاتك ومتطلباتك، حيث نقوم بتحليل كل جانب من جوانب عملك. بعد ذلك، يأتي التصميم ليحول هذه المتطلبات إلى خطة تنفيذ ملموسة، يشمل تصميم واجهة المستخدم وتحديد الوظائف الرئيسية.",
+        service1_5:"فوائد التطبيق",
+        service1_6:"تحسين الإنتاجية",
+        service1_7:"يضع التحليل الدقيق أساسًا لتحسين كفاءة العمل وزيادة الإنتاجية",
+        service1_8:"تحقيق التواصل الفعّال",
+        service1_9:"يساعد التصميم على إنشاء واجهة مستخدم فعّالة، مما يعزز تفاعل المستخدمين مع التطبيق بشكل إيجابي ",
+        service1_11:"تحقيق أهداف العمل",
+        service1_12:"يضمن التحليل والتصميم تحقيق أهداف عملك بكفاءة عالية، مما يسهم في نجاح المشروع",
+
+
+        
+        
+        // service tow 
+        service2:"تقديم حلول مناسبة",
+        service2_2:"تقديم حلول فريدة تتناسب مع متطلبات العمل والتكنولوجيا المستخدمة",
+        service2_3:"دعم العملاء بتقنيات حديثة وحلول تساهم في تطوير أعمالهم",
+        service2_4:"نحن ندرك أن كل منشأة لديها احتياجات فريدة، ولهذا نقدم حلولًا مخصصة تتناسب مع طبيعة عملك. نبدأ بفهم تفاصيل عملك واحتياجاتك، ونقوم بتقديم خطط ملائمة وفقًا لأهدافك وتحدياتك الفريدة",
+        service2_5:"فوائد التطبيق",
+        service2_6:"تحقيق أفضل تكامل",
+        service2_7:"يساعد تقديم حلول مخصصة في تعزيز تكامل أنظمة العمل داخل المنشأة، مما يحقق تدفقًا أكثر فعالية",
+        service2_8:"تحسين تجربة المستخدم",
+        service2_9:"يتيح اختيار الحلول الملائمة تحسين تجربة المستخدم، مما يعزز التفاعل الإيجابي مع التقنيات المستخدمة",
+        service2_11:"زيادة الكفاءة والإنتاجية",
+        service2_12:"توفير حلول ملائمة يعزز الكفاءة العامة ويزيد من إنتاجية المنشأة",
+        
+        // service three 
+        service3:"خدمات التخصيص",
+        service3_2:"توفير خدمات مخصصة لتلبية احتياجات فريدة لكل عميل",
+        service3_3:"إرضاء العملاء من خلال تقديم تجارب فريدة وملائمة",
+        service3_4:"نهتم بتلبية احتياجات عملك بشكل دقيق من خلال تخصيص حلول فريدة. نعمل جنبًا إلى جنب معك لفهم تفاصيل متطلباتك ونقوم بتعديل الحلول بما يتلاءم مع هويتك واحتياجات عملك الفريدة",
+        service3_5:"فوائد التطبيق",
+        service3_6:"تلبية احتياجات محددة",
+        service3_7:"نقوم بتحديد وفهم تفاصيل احتياجاتك الخاصة لتقديم حلاً يلبي تمامًا تلك الاحتياجات",
+        service3_8:"تعزيز التميز التنافسي",
+        service3_9:"تخصيص الحلول يمنحك تفوقًا على المنافسين من خلال تقديم خدمات فريدة تعكس هوية علامتك التجارية",
+        service3_11:"",
+        service3_12:"",
+
 
 
         // CONTACT US 
@@ -222,7 +305,7 @@ window.addEventListener("scroll" , function(){
         message:"الرسالة",
         number:"هاتفك",
         send:"ارسال",
-
+        
 // صفحة حولنا
 
         aboutsubtitle:"في MBV، نؤمن بقوة المعلومات وأثرها في صنع القرارات. نحن هنا لتمكين المؤسسات والشركات من تحقيق القيادة والابتكار من خلال استخدام المعلومات بشكل فعّال. نقدم حلول تكنولوجيا المعلومات المتطورة التي تمكّن القادة وأصحاب القرار من اتخاذ القرارات الحكيمة والمستنيرة التي تدفع بهم نحو التحول والنمو المستدام",
@@ -283,6 +366,8 @@ window.addEventListener("scroll" , function(){
       Quick:"روابط سريعة",
 
 
+
+
     }
   }
   
@@ -291,7 +376,9 @@ window.addEventListener("scroll" , function(){
       if (event.target.value === "en") {
           setlanguage(event.target.value);
           event.target.value = "ar";
-      } else if (event.target.value === "ar") {
+      }
+       
+      else if (event.target.value === "ar") {
           setlanguage(event.target.value);
           event.target.value = "en";
       }
@@ -304,9 +391,12 @@ window.addEventListener("scroll" , function(){
       const translationkey = element.getAttribute("data-i18n");
       element.textContent = translations[language][translationkey];
     });
+
     document.dir = language === "ar" ? "rtl" : "ltr";
     let navend = document.getElementById("nav-end")
     navend.classList = language === "en" ?   "navbar-end":"navbar-start";
+    let btnlanguage=document.querySelector('#languages')
+    btnlanguage.classList = language === "en" ? "languages-button": "languages-button1" ;
   }
   
 
