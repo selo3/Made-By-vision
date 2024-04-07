@@ -53,10 +53,10 @@
   border-top-color: #09c8c1;
 
   -webkit-animation: spin 1.5s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
-  animation: spin 1.5s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+  animation: spinone 1.5s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
 }
 
-@-webkit-keyframes spin {
+@-webkit-keyframes spinone {
   0% {
     -webkit-transform: rotate(0deg); /* Chrome, Opera 15+, Safari 3.1+ */
     -ms-transform: rotate(0deg); /* IE 9 */
@@ -68,7 +68,7 @@
     transform: rotate(360deg); /* Firefox 16+, IE 10+, Opera */
   }
 }
-@keyframes spin {
+@keyframes spinone {
   0% {
     -webkit-transform: rotate(0deg); /* Chrome, Opera 15+, Safari 3.1+ */
     -ms-transform: rotate(0deg); /* IE 9 */
