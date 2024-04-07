@@ -269,6 +269,7 @@ h2 {
   margin: 50px auto;
 }
 
+
 .div1 .card1 {
   display: flex;
   justify-content: space-around;
@@ -276,11 +277,19 @@ h2 {
 
   flex-direction: column;
 }
-
-.div1 .card1 img {
-  width: 180px;
-  padding: 20px;
-}
+.features{
+  
+  border-radius: 10px;
+  color: #17283c;
+  /* padding: 40px 50px; */
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  background-color: #09c8c1;
+  font-size: 50px;
+  }
 
 .card1 h1 {
   font-size: 18px;
