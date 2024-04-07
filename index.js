@@ -153,8 +153,13 @@ window.addEventListener("scroll" , function(){
       howtoapplyContent:"If you are interested in joining our team and believe you have the required skills and experience, please send your resume to [info@mbyvision.com]",
       howtoapplyContent1:"At MBV, we consider every employee as part of our family, working together towards achieving success and excellence. Join us today and be part of this exciting journey towards the future of technology",
 
-
-
+      // footer 
+      find:"Find us",
+      find1:"Kingdom of Saudi Arabia / Riyadh",
+      call:"Call us",
+      mail:"Mail us",
+      Follow:"Follow us",
+      Quick:"Quick Links",
     },
     ar:{
 
@@ -195,7 +200,7 @@ window.addEventListener("scroll" , function(){
         // Service Worker 
 
 
-        Services:"الخدمات",
+        Services:"خدماتنا",
         service1:"التحليل والتصميم ",
         service2:"تقديم حلول مناسبة",
         service3:"خدمات التخصيص",
@@ -267,6 +272,17 @@ window.addEventListener("scroll" , function(){
       howtoapplyContent:"إذا كنت مهتمًا بالانضمام إلى فريقنا وتعتقد أن لديك المهارات والخبرات المطلوبة، نرجو منك إرسال السيرة الذاتية الخاصة بك عبر البريد الإلكتروني [info@mbyvision.com]",
       howtoapplyContent1:"في MBV، نعتبر كل موظف جزءًا من عائلتنا ونعمل معًا نحو تحقيق النجاح والتميز. انضم إلينا اليوم وكن جزءًا من هذه الرحلة المثيرة نحو مستقبل التكنولوجيا!",
     
+
+
+       // footer 
+       find:"تجدنا في",
+       find1:"المملكة العربية السعودية /الرياض",
+       call:"اتصل بنا",
+       mail:"بريدنا الالكتروني",
+       Follow:"تابعنا على",
+      Quick:"روابط سريعة",
+
+
     }
   }
   

@@ -36,7 +36,7 @@ h2 {
   background: transparent;
   display: flex;
   width: 100%;
-  height: 90vh;
+  height: 100vh;
   background-repeat: no-repeat;
   background-image: url("image/bgfirstsection/5.jpg");
   justify-content: center;
@@ -63,7 +63,7 @@ h2 {
 #particles-js {
   position: absolute;
   width: 100%;
-  height: 90%;
+  height: 100%;
   background: #17283cda;
   background-repeat: no-repeat;
   background-size: cover;
@@ -156,6 +156,7 @@ h2 {
   width: 100%;
   padding: 50px;
   background-color: #17283ce6;
+  margin-top: 50px;
 }
 .about-div{
   display: flex;
@@ -458,6 +459,8 @@ border-radius: 25px;
   .about-div h4{
     font-size: 50px;
     width: 70%;
+    margin: auto;
+    text-align: center;
   }
 }
 
@@ -492,10 +495,12 @@ border-radius: 25px;
   }
   .about-div h4{
     font-size: 40px;
+    text-align: center;
   }
-  .about-div p {
-    font-size: 15px;
-  }
+  .about-div .about-subtitle p {
+    font-size: 14px;
+    line-height: 33px;
+}
   h2{
     font-size: 40px !important;
   }

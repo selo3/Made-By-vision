@@ -19,6 +19,9 @@ body{
     flex-wrap: wrap;
     
 }
+.section-services{
+  margin-bottom: 200px;
+}
 
 
 .swiper-slide-me{
