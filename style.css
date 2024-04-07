@@ -277,11 +277,10 @@ h2 {
 
   flex-direction: column;
 }
-.features{
+.features{1.6
   
   border-radius: 10px;
   color: #17283c;
-  /* padding: 40px 50px; */
   width: 150px;
   display: flex;
   align-items: center;
