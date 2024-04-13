@@ -724,7 +724,7 @@ li a {
   }
   
  .menu-item {
-    background-color: rgba(23, 40, 60, 0.8);
+    background-color: rgb(23, 40, 60);
     /* width: 100px; */
     transition: all 1s ease 0s;
     border: 1px solid transparent;

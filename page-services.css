@@ -47,6 +47,7 @@
     max-width: 150px;
     font-weight: 500;
     padding: 12px;
+    margin: 20px 0;
 }
 .content-text button:hover{
     color: #09c8c1;

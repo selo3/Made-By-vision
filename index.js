@@ -88,7 +88,7 @@ window.addEventListener("scroll" , function(){
         service11:"Software Development",
         select_now:"Select Now",
         show_more:"Show More",
-
+        showAll:"show All",
         
         // service one 
           service1:"Analysis and Design",
@@ -219,6 +219,7 @@ window.addEventListener("scroll" , function(){
         projects:"أعمالنا",
         Articles:"مدونة",
         show_more:"رؤية المزيد",
+        showAll:"جميع الخدمات",
 
 
 
