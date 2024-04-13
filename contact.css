@@ -52,7 +52,7 @@
 .contactform{
   position: relative;
   padding: 20px 50px;
-  background: hsla(212, 45%, 16%, 0.91);
+  background: hsl(211, 46%, 16%);
   margin-left: 150px;
   border-radius: 25px;
   padding-left: 250px;
@@ -95,7 +95,7 @@
     font-size: 18px;
     font-weight: 300;
     border: none;
-    background: hsla(212, 45%, 16%, 0);
+    background: hsl(211, 46%, 16%);
     color: #fff;
     border-bottom: 1px solid #777;
     outline: none;

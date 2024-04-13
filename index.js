@@ -15,8 +15,8 @@ document.addEventListener("DOMContentLoaded", () => {
     );
 
 window.addEventListener("scroll" , function(){
-  let header=document.querySelector("#header");
-  header.classList.toggle("sticky" , window.scrollY > 0)
+  let header=document.querySelector("nav");
+  header.classList.toggle("sticky" , window.scrollY > window.scrollY )
 });
 
 
@@ -86,7 +86,9 @@ window.addEventListener("scroll" , function(){
         service9:"Post-Deployment Support",
         service10:"Maintenance",
         service11:"Software Development",
-        
+        select_now:"Select Now",
+        show_more:"Show More",
+
         
         // service one 
           service1:"Analysis and Design",
@@ -141,7 +143,7 @@ window.addEventListener("scroll" , function(){
         email:"Email Address",
         message:"Write your message here",
         number:"phone Number",
-        send:"send",
+        sendmess:"send",
 
 
         // about page 
@@ -216,6 +218,7 @@ window.addEventListener("scroll" , function(){
         en:"",
         projects:"أعمالنا",
         Articles:"مدونة",
+        show_more:"رؤية المزيد",
 
 
 
@@ -252,6 +255,7 @@ window.addEventListener("scroll" , function(){
         service9:"دعم ما بعد النشر",
         service10:"الصيانة ",
         service11:"تطوير البرمجيات ",
+        select_now:"اخترها الآن",
         
         // service one 
         service1:"التحليل والتصميم ",
