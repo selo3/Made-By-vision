@@ -524,3 +524,8 @@ border-radius: 25px;
     font-size: 12px;
   }
 }
+@media screen and (max-width: 400px) {
+  .div1 .card1{
+    width: 150px;
+  }
+}
