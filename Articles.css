@@ -17,6 +17,7 @@
 }
 .cards{
     width: 22%;
+    margin-bottom: 15px;
 }
 .card{
     width: 100% !important;

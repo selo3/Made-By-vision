@@ -78,6 +78,7 @@ window.addEventListener("scroll" , function(){
         // Service Worker 
 
         Services:"Services",
+        Servicess:"Services Built Specifically for your Business",
         service4:"Ensuring Quality",
         service5:"Programming",
         service6:"Testing",
@@ -89,6 +90,7 @@ window.addEventListener("scroll" , function(){
         select_now:"Select Now",
         show_more:"Show More",
         showAll:"show All",
+        offering:"what we're offering",
         
         // service one 
           service1:"Analysis and Design",
@@ -257,6 +259,9 @@ window.addEventListener("scroll" , function(){
         service10:"الصيانة ",
         service11:"تطوير البرمجيات ",
         select_now:"اخترها الآن",
+        Servicess:"خدماتنا تبنى خصيصا لعملك التجاري",
+        offering:"ماذا نوفر لك",
+
         
         // service one 
         service1:"التحليل والتصميم ",

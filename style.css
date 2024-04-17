@@ -124,7 +124,7 @@ h2 {
   left: 50%;
   top: 10px;
   transform: translate(-50%, 0);
-  animation: animate 1s linear infinite;
+  animation: animate1 1s linear infinite;
 }
 
 .down::after {
@@ -139,7 +139,7 @@ h2 {
   transform: translate(-50%, 0);
   border-radius: 3px;
 }
-@keyframes animate {
+@keyframes animate1 {
   0% {
     transform: translate(-50%, 10px);
   }
@@ -165,8 +165,8 @@ h2 {
   align-items: center;
   /* border: 2px solid #fff; */
   border-radius: 25px;
-  padding: 40px;
-  background-color: #0b1b2fda;
+  padding: 40px 40px 0;
+  background-color: #464a66;
   /* margin-right: 50px; */
   box-shadow: 0 1px 20px 3px #464a66;
 
@@ -174,6 +174,9 @@ h2 {
 }
 .about-div .about-title{
   width: 50%;
+}
+.about-div .about-title img{
+  width: 80%;
 }
 .about-div .about-subtitle{
   width: 50%;
@@ -184,7 +187,7 @@ h2 {
   font-weight: 600;
 }
 .about-div h4{
-  font-size: 80px;
+  font-size: 30px;
   color: #09c8c1;
   font-weight: 800;
   
@@ -201,7 +204,8 @@ h2 {
 }
 .about-div .about-subtitle p{
   font-size: 20px;
-  line-height: 50px;
+  line-height: 30px;
+  color: #fff;
 }
 
 
@@ -551,7 +555,12 @@ border-radius: 25px;
   }
 }
 @media screen and (max-width: 1016px) {
-
+    .about-div{
+  padding: 40px ;
+    }
+  .about-div .about-title {
+    text-align: center;
+  }
 
   button.menu-item {
     width: 100%;
@@ -570,14 +579,14 @@ border-radius: 25px;
   }
   .landing h1,
   .landing span {
-    font-size: 30px;
+    font-size: 22px;
   }
   .landing-text {
     width: 85%;
   }
 
   .landing-text p {
-    font-size: 35px;
+    font-size: 25px;
   }
   .landing {
     width: 100%;
@@ -624,7 +633,7 @@ border-radius: 25px;
   }
 
   .landing-text p {
-    font-size: 28px;
+    font-size: 25px;
   }
   .section-about{
     padding: 20px;
@@ -634,6 +643,7 @@ border-radius: 25px;
     font-size: 40px;
     text-align: center;
   }
+
   .about-div .about-subtitle p {
     font-size: 14px;
     line-height: 33px;
@@ -651,6 +661,7 @@ border-radius: 25px;
   .card1 h2{
     font-size: 12px;
   }
+  
 }
 @media screen and (max-width: 400px) {
   .div1 .card1{

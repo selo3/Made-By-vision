@@ -7,10 +7,11 @@
   /* background-color: #17283c; */
   display: flex;
   padding: 50px;
-  /* margin: 145px 0 75px 0 ; */
+  margin: 0px 0 45px 0 ;
   background-color: #09c8c1;
-  /* background: url('image/bgfirstsection/32.avif') no-repeat; */
-  background-size: 100%;
+  background: url('image/bgfirstsection/32.avif') no-repeat;
+  background-size: 100% 100%;
+
 
 }
 
@@ -52,7 +53,7 @@
 .contactform{
   position: relative;
   padding: 20px 50px;
-  background: hsl(211, 46%, 16%);
+  background: hsl(211deg 46% 16% / 63%);
   margin-left: 150px;
   border-radius: 25px;
   padding-left: 250px;
@@ -95,7 +96,7 @@
     font-size: 18px;
     font-weight: 300;
     border: none;
-    background: hsl(211, 46%, 16%);
+    background: transparent;
     color: #fff;
     border-bottom: 1px solid #777;
     outline: none;
@@ -116,6 +117,10 @@
 
 
   }
+.contact .contact-container  .formbox .inputbox select  option{
+  color: #17283c;
+  border-bottom: 1px solid #17283c;
+}
   .contact .contact-container  .formbox .inputbox input:focus ~ span,
   .contact .contact-container  .formbox .inputbox textarea:focus ~ span,
   .contact .contact-container  .formbox .inputbox input:valid ~ span,
@@ -170,7 +175,7 @@
 @media screen and (max-width: 1124px){
   .contact .contact-container{
   
-    min-width: 900px;
+    width: 900px;
     min-height: 550px;
   
   
@@ -180,10 +185,13 @@
 @media screen and (max-width: 924px){
   .contact .contact-container{
   
-    min-width: 700px;
+    width: 700px;
     min-height: 550px;
   
   
+  }
+  .contact .contact-container .formbox .inputbox span {
+    font-size: 15px;
   }
 .contact .contact-container .contactinfo{
    
@@ -200,14 +208,18 @@
 }
 @media screen and (max-width: 750px){
   .contact .contact-container h2 {
-    font-size: 35px !important;
+    font-size: 25px !important;
+  }
+  .contact .contact-container  h2{
+    margin: 10px auto !important;
+  
   }
   .contact .contact-container .formbox .inputbox span {
     font-size: 14px;
   }
   .contact .contact-container{
   
-    min-width: 90%;
+    width: 80%;
     /* min-height: 550px; */
   
   
@@ -227,26 +239,24 @@
    
     margin-left: 0px;
     padding-left: 30px;
+    padding-bottom: 70px;
     
   }
   .contact .contact-container .contactinfo{
-  
-    bottom: -200px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50% , -50%);
     top: 750px;
-    /* margin-left: 13px; */
-    width: 100%;
-    z-index: -1;
-   
+    width: 250px;
+      z-index: 1;
   }
   .contact{
-  
-    margin: 0px 0 500px 0 ;
+    margin: 0px 0 250px 0 ;
     min-height: 0;
   
   }
   .map{
-    height: 400px;
-    margin-top: 30px;
+    height: 280px;
     width: 100%;
   }
   .contact .contact-container .formbox .inputbox input[type="submit"] {
@@ -263,6 +273,6 @@
     font-size: 13px;
 }
 .contact{
-  padding: 10px;
+  padding: 30px;
 }
 }
